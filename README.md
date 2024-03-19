@@ -28,10 +28,15 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 CONNECTING TO POSTGRE --------------------
 
 In the json file make changes to the following,
+
 DB_NAME: is the name of the database you have created, 
-DB_USER: username of database, most likely [ postgres ]
+
+DB_USER: username of database, most likely [ postgres ],
+
 DB_PASS: your password for the database,
+
 DB_HOST: host name, most likely [ localhost ]
+
 DB_PORT: port , most likely [ 5432 ]
 
 make sure in the Assignment_3_Q1.py file that the name of your json file is the same as the name of the file you are trying to read
